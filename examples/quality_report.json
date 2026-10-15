@@ -1,0 +1,61 @@
+{
+  "audit_clean": {
+    "records": 20,
+    "failures": 0,
+    "pass": true,
+    "findings": []
+  },
+  "audit_dirty": {
+    "records": 20,
+    "failures": 5,
+    "pass": false,
+    "findings": [
+      {
+        "row": 3,
+        "column": "record_id",
+        "rule": "unique"
+      },
+      {
+        "row": 4,
+        "column": "date",
+        "rule": "iso_date"
+      },
+      {
+        "row": 5,
+        "column": "status",
+        "rule": "accepted_values"
+      },
+      {
+        "row": 6,
+        "column": "amount",
+        "rule": "nonnegative_decimal"
+      },
+      {
+        "row": 7,
+        "column": "channel",
+        "rule": "accepted_values"
+      }
+    ]
+  },
+  "reconciliation": {
+    "equal": false,
+    "left_rows": 20,
+    "right_rows": 20,
+    "missing_rows": 5,
+    "unexpected_rows": 5,
+    "missing_hashes": {
+      "c1da0c945f996723bada5044de4a1a5703137b42cb649483cb2f151e3f654a3f": 1,
+      "a34cb0ca3626d9d72f1fc00a2113b1b853af55e469cf35c7411bbb3ed903eb98": 1,
+      "9098b8b505f24685c3d8d7fe7a72d81dfe06449df5645a1d9c45a5e1aa4ac2bf": 1,
+      "2db16c5517b1c6cda5b932bf395f5d5e3c8c95aff512b88cd8b24bb5d274bf60": 1,
+      "09aa1916986d886d5cd2e6f6c124458ea60634b771fea91cd944969ef53eea34": 1
+    },
+    "unexpected_hashes": {
+      "de03bca5f2fb3373e653b2ffc269f954895bc85cd9d8ec6d4973954d0b177d36": 1,
+      "50a453e0929562d96b9189c0c85cf7a05391f61e82f3384417ea4fdd9f95d0fe": 1,
+      "4f3c7c56db07ea90cce3feb66226529dc8979ce87f27a4a1d677181cdf2e6f77": 1,
+      "027fff5fd12e405dd5282579c820a84b53a33d0ea74dfaddccd47688862399fe": 1,
+      "1170b1a813052dab6b875e07f31b6a7308de2bc3d815f01634930f852096d04e": 1
+    }
+  }
+}
