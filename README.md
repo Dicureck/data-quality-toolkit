@@ -58,4 +58,4 @@ Data validation precedes dashboards, SQL optimization, and database migration: a
 Created by **Melissa Castro** as original portfolio code. MIT license. Not an employer/customer artifact.
 
 
-**Release preparation:** [v0.1.0 notes](RELEASE_NOTES_DRAFT.md) · [Changelog](CHANGELOG.md). Native GitHub Release pending.
+**Official GitHub Release:** [v0.1.0](https://github.com/Dicureck/data-quality-toolkit/releases/tag/v0.1.0) — CI-gated source snapshot, release notes, and downloadable source archives. [Changelog](CHANGELOG.md).
