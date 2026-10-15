@@ -56,3 +56,6 @@ Synthetic fixture generator
 Data validation precedes dashboards, SQL optimization, and database migration: a faster report is not useful if it silently drops or duplicates records. This lab demonstrates how to protect integrity with explicit, independently testable contracts.
 
 Created by **Melissa Castro** as original portfolio code. MIT license. Not an employer/customer artifact.
+
+
+**Release preparation:** [v0.1.0 notes](RELEASE_NOTES_DRAFT.md) · [Changelog](CHANGELOG.md). Native GitHub Release pending.
